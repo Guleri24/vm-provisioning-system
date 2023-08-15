@@ -16,6 +16,8 @@ import java.util.List;
 public class UserController {
     @Autowired
     private VirtualMachineService vmService;
+
+    @Autowired
     private UserService userService;
 
     @GetMapping("/vms")
